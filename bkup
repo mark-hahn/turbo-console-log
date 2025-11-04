@@ -1,0 +1,4 @@
+# log:  tail -fn 100 bkup.log
+
+rsync -avx /mnt/c/Users/mark/apps/turbo-console-log/                 \
+            hahnca.com:/mnt/media/backup/mark/apps/turbo-console-log
