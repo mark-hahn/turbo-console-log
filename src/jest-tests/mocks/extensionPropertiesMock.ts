@@ -12,6 +12,8 @@ export const extensionPropertiesMock: ExtensionProperties = {
   insertEmptyLineAfterLogMessage: false,
   quote: '"',
   delimiterInsideMessage: '~',
+  // useTemplate: false,
+  // messageTemplate: '🚀 ~ <file>:<line-num> ~ <class> ~ <func> ~ <var>:',
   includeLineNum: false,
   includeFilename: false,
   logFunction: 'log',

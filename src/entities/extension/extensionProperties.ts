@@ -9,6 +9,8 @@ export type ExtensionProperties = {
   insertEmptyLineBeforeLogMessage: boolean;
   insertEmptyLineAfterLogMessage: boolean;
   delimiterInsideMessage: string;
+  useTemplate: boolean;
+  messageTemplate: string;
   includeFilename: boolean;
   includeLineNum: boolean;
   quote: string;

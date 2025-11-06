@@ -38,6 +38,8 @@ export function constructDebuggingMsgContent(
   logFunction: string,
 ): string {
   const {
+    useTemplate,
+    messageTemplate,
     includeFilename,
     includeLineNum,
     logMessagePrefix,

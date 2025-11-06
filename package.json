@@ -65,6 +65,16 @@
           "default": ":",
           "description": "The suffix of the log message."
         },
+        "turboConsoleLog.useTemplate": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use the custom message template. Disables other options like includeFilename."
+        },
+        "turboConsoleLog.messageTemplate": {
+          "type": "string",
+          "default": "🚀 ~ <file>:<line-num> ~ <class> ~ <func> ~ <var>:",
+          "description": "A template to specify the message format. Only used if useTemplate is enabled."
+        },
         "turboConsoleLog.includeFilename": {
           "type": "boolean",
           "default": false,

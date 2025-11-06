@@ -7,3 +7,7 @@ coverage
 .test-extensions
 scripts/tmp
 .github/copilot-instructions.md
+misc
+bkup
+.vscode/bookmarks.json
+.vscode/settings.json

@@ -2,6 +2,10 @@
 
 All notable changes to the "turbo-console-log" extension will be documented in this file.
 
+## [?.?.?] - 2025-??-??
+
+Added message template.
+
 ## [3.9.0] - 2025-10-30
 
 ### 🎃 Halloween Special Edition: Universal Framework Support

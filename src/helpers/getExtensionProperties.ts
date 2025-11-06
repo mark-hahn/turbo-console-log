@@ -19,6 +19,9 @@ export function getExtensionProperties(
     quote: workspaceConfig.quote || '"',
     delimiterInsideMessage: workspaceConfig.delimiterInsideMessage || '~',
     includeLineNum: workspaceConfig.includeLineNum || false,
+    useTemplate: workspaceConfig.useTemplate ?? false,
+    messageTemplate: workspaceConfig.messageTemplate ||
+      '🚀 ~ <file>:<line-num> ~ <class> ~ <func> ~ <var>:',
     includeFilename: workspaceConfig.includeFilename || false,
     logFunction: workspaceConfig.logFunction || 'log',
   };

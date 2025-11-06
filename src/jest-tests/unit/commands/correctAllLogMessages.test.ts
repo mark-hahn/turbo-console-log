@@ -26,6 +26,8 @@ describe('correctAllLogMessagesCommand', () => {
       logFunction: 'log',
       logMessagePrefix: 'Debug',
       delimiterInsideMessage: '~',
+      useTemplate: false,
+      messageTemplate: '🚀 ~ <file>:<line-num> ~ <class> ~ <func> ~ <var>:',
       includeFilename: true,
       includeLineNum: true,
       logCorrectionNotificationEnabled: true,
