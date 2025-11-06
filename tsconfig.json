@@ -16,6 +16,7 @@
   },
   "include": ["**/*.ts"],
   "exclude": [
+    "misc",
     "node_modules",
     ".vscode-test",
     "src/mocha-tests/files",
